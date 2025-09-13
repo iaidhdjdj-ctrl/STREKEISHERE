@@ -1,0 +1,8 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Streke", "Midnight")
+local Tab = Window:NewTab("ادوات مفيده")
+local Section = Tab:NewSection("ادوات مفيده")
+Section:NewButton("طيران& ادمن", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Gui-Fly-v3-37111"))() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print("Clicked")
+end)
